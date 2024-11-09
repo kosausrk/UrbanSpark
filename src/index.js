@@ -8,8 +8,11 @@ import {
 import "./App.css"
 import "./index.css";
 
+
 import Home from "./components/home";
 import OpportunityCard from "./components/opportunity_card";
+import StartPage from "./pages/StartPage";
+import SubmittedPage from "./pages/SubmittedPage";
 
 const router = createBrowserRouter([
   {
@@ -18,11 +21,21 @@ const router = createBrowserRouter([
   },
   {
     path: "/cards",
-    element: <OpportunityCard />
+    element: <OpportunityCard />,
+  },
+  {
+    path: "/start",
+    element: <StartPage />,
+  },
+
+  {
+    path: "/submitted",
+    element: <SubmittedPage />,
+
   }
 ]);
 
-// DO NOT EDIT THIS LIKE AT ALL
+// DO NOT EDIT THIS LINE AT ALL
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
