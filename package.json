@@ -40,11 +40,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-<<<<<<< HEAD
-    "daisyui": "^4.12.14",
-=======
     "https-browserify": "^1.0.0",
->>>>>>> 51551c6 (SerpAPI test)
     "postcss": "^8.4.47",
     "querystring-es3": "^0.2.1",
     "tailwindcss": "^3.4.14"
