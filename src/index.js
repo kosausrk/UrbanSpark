@@ -10,6 +10,7 @@ import "./index.css";
 
 import Home from "./components/home";
 import OpportunityCard from "./components/opportunity_card";
+import OpportunityPage from "./components/opportunity_page";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/cards",
     element: <OpportunityCard />
+  },
+  {
+    path: "/opportunity",
+    element: <OpportunityPage />
   }
 ]);
 
