@@ -5,10 +5,11 @@ import { Navbar } from './navbar';
 
 function Home() {
   return (
+    <div>
+    <Navbar />
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center text-center">
       
       {/* Navbar */}
-      <Navbar />
 
 
       {/* Home Screen Content */}
@@ -27,6 +28,7 @@ function Home() {
           </button>
         </Link>
       </main>
+    </div>
     </div>
   );
 }
