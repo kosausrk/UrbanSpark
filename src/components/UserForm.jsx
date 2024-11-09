@@ -34,7 +34,7 @@ function UserForm() {
     console.log("Stored User Data:", userData);
 
     // Redirect to the new blank page
-    navigate('/submitted');
+    navigate('/opprtunity');
   };
 
   return (

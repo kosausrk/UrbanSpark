@@ -23,7 +23,27 @@ const router = createBrowserRouter([
   {
     path: "/cards",
     element: <OpportunityCard />
+  },
+  {
+    path: "/start",
+    element: <StartPage />,
+  },
+  {
+    path: "/submitted",
+    element: <SubmittedPage />,
+   
+  },
+  {
+    path: "/opprtunity",
+    element: <OpportunityPage />,
+
   }
+
+  
+
+
+
+  
 ]);
 
 // DO NOT EDIT THIS LINE AT ALL

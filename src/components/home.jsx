@@ -9,8 +9,7 @@ function Home() {
     <Navbar />
     <div className="relative min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-br from-gray-900 via-gray-800 to-red-600 overflow-hidden">
       
-      {/* Navbar */}
-      <Navbar />
+     
 
       {/* Floating Decorative Circles with Breathing Effect */}
       <div className="absolute top-10 right-20 w-32 h-32 bg-red-500 opacity-20 rounded-full animate-slowBreath"></div>
