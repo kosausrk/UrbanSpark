@@ -11,6 +11,7 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.0",
     "react-scripts": "5.0.1",
+    "serpapi": "^2.1.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,8 +40,13 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+<<<<<<< HEAD
     "daisyui": "^4.12.14",
+=======
+    "https-browserify": "^1.0.0",
+>>>>>>> 51551c6 (SerpAPI test)
     "postcss": "^8.4.47",
+    "querystring-es3": "^0.2.1",
     "tailwindcss": "^3.4.14"
   }
 }
