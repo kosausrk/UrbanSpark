@@ -5,6 +5,8 @@ import { Navbar } from './navbar';
 
 function Home() {
   return (
+    <div>
+    <Navbar />
     <div className="relative min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-br from-gray-900 via-gray-800 to-red-600 overflow-hidden">
       
       {/* Navbar */}
@@ -43,6 +45,7 @@ function Home() {
           </button>
         </Link>
       </main>
+    </div>
     </div>
   );
 }

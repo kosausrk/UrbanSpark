@@ -11,6 +11,7 @@ import "./index.css";
 
 import Home from "./components/home";
 import OpportunityCard from "./components/opportunity_card";
+import OpportunityPage from "./components/opportunity_page";
 import StartPage from "./pages/StartPage";
 import SubmittedPage from "./pages/SubmittedPage";
 
@@ -21,17 +22,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/cards",
-    element: <OpportunityCard />,
-  },
-  {
-    path: "/start",
-    element: <StartPage />,
-  },
-
-  {
-    path: "/submitted",
-    element: <SubmittedPage />,
-
+    element: <OpportunityCard />
   }
 ]);
 
